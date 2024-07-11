@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4443755832758563764">
+  <FileInfo check="ctu">
+<function-call call-id="app/scheduler.h:39:13" call-funcname="HIL_SCHEDULER_Init" call-argnr="1" file="app/main.c" line="49" col="21" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/scheduler.h:41:13" call-funcname="HIL_SCHEDULER_RegisterTask" call-argnr="1" file="app/main.c" line="52" col="35" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/scheduler.h:41:13" call-funcname="HIL_SCHEDULER_RegisterTask" call-argnr="1" file="app/main.c" line="53" col="35" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/scheduler.h:41:13" call-funcname="HIL_SCHEDULER_RegisterTask" call-argnr="1" file="app/main.c" line="54" col="35" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/scheduler.h:41:13" call-funcname="HIL_SCHEDULER_RegisterTask" call-argnr="1" file="app/main.c" line="55" col="35" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/scheduler.h:47:13" call-funcname="HIL_SCHEDULER_RegisterTimer" call-argnr="1" file="app/main.c" line="57" col="40" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/scheduler.h:40:13" call-funcname="HIL_SCHEDULER_Start" call-argnr="1" file="app/main.c" line="62" col="28" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="36"/>
+    <functiondecl functionName="hearth_init" lineNumber="68"/>
+    <functiondecl functionName="hearth_beat" lineNumber="85"/>
+    <functiondecl functionName="dog_init" lineNumber="93"/>
+    <functiondecl functionName="peth_the_dog" lineNumber="120"/>
+    <functioncall functionName="Clock_Init"/>
+    <functioncall functionName="Clock_Task"/>
+    <functioncall functionName="GPIOC"/>
+    <functioncall functionName="GPIO_MODE_OUTPUT_PP"/>
+    <functioncall functionName="GPIO_NOPULL"/>
+    <functioncall functionName="GPIO_PIN_0"/>
+    <functioncall functionName="GPIO_PIN_1"/>
+    <functioncall functionName="GPIO_PIN_5"/>
+    <functioncall functionName="GPIO_SPEED_FREQ_LOW"/>
+    <functioncall functionName="HAL_GPIO_Init"/>
+    <functioncall functionName="HAL_GPIO_TogglePin"/>
+    <functioncall functionName="HAL_GPIO_WritePin"/>
+    <functioncall functionName="HAL_GetTick"/>
+    <functioncall functionName="HAL_Init"/>
+    <functioncall functionName="HAL_WWDG_Init"/>
+    <functioncall functionName="HAL_WWDG_Refresh"/>
+    <functioncall functionName="HIL_SCHEDULER_Init"/>
+    <functioncall functionName="HIL_SCHEDULER_RegisterTask"/>
+    <functioncall functionName="HIL_SCHEDULER_RegisterTimer"/>
+    <functioncall functionName="HIL_SCHEDULER_Start"/>
+    <functioncall functionName="One_Secon_TimerCallback"/>
+    <functioncall functionName="RESET"/>
+    <functioncall functionName="Serial_Init"/>
+    <functioncall functionName="Serial_Task"/>
+    <functioncall functionName="WWDG"/>
+    <functioncall functionName="WWDG_EWI_DISABLE"/>
+    <functioncall functionName="WWDG_PRESCALER_32"/>
+    <functioncall functionName="__GPIOC_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_GPIOC_CLK_ENABLE"/>
+    <functioncall functionName="display_Init"/>
+    <functioncall functionName="display_Task"/>
+    <functioncall functionName="hearth_beat"/>
+    <functioncall functionName="hearth_init"/>
+  </FileInfo>
+</analyzerinfo>

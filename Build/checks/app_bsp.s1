@@ -1,0 +1,2 @@
+Delay_us_Init global:[TIM6_Handler] call:[HAL_TIM_Base_Init,__TIM6_CLK_ENABLE] noreturn:[HAL_TIM_Base_Init]
+Delay_us global:[TIM6_Handler] call:[HAL_TIM_Base_Start,HAL_TIM_Base_Stop,__HAL_TIM_GetCounter,__HAL_TIM_SET_COUNTER] noreturn:[HAL_TIM_Base_Stop]

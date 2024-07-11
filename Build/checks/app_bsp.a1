@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4092506089211842647">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Delay_us_Init" lineNumber="3"/>
+    <functiondecl functionName="Delay_us" lineNumber="12"/>
+    <functioncall functionName="HAL_TIM_Base_Init"/>
+    <functioncall functionName="HAL_TIM_Base_Start"/>
+    <functioncall functionName="HAL_TIM_Base_Stop"/>
+    <functioncall functionName="TIM6"/>
+    <functioncall functionName="TIM_COUNTERMODE_UP"/>
+    <functioncall functionName="__HAL_TIM_GetCounter"/>
+    <functioncall functionName="__HAL_TIM_SET_COUNTER"/>
+    <functioncall functionName="__TIM6_CLK_ENABLE"/>
+  </FileInfo>
+</analyzerinfo>

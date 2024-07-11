@@ -1,0 +1,10 @@
+HIL_QUEUE_Init
+HIL_QUEUE_IsEmpty
+HIL_QUEUE_IsFull
+HIL_QUEUE_Write call:[HIL_QUEUE_IsFull,memcpy]
+HIL_QUEUE_Read call:[HIL_QUEUE_IsEmpty,memcpy]
+HIL_QUEUE_Flush call:[HIL_QUEUE_Init,memset] noreturn:[HIL_QUEUE_Init]
+HIL_QUEUE_WriteISR call:[HAL_NVIC_DisableIRQ,HAL_NVIC_EnableIRQ,HIL_QUEUE_Write]
+HIL_QUEUE_ReadISR call:[HAL_NVIC_DisableIRQ,HAL_NVIC_EnableIRQ,HIL_QUEUE_Read]
+HIL_QUEUE_IsEmptyISR call:[HAL_NVIC_DisableIRQ,HAL_NVIC_EnableIRQ,HIL_QUEUE_IsEmpty]
+HIL_QUEUE_FlushISR call:[HAL_NVIC_DisableIRQ,HAL_NVIC_EnableIRQ,HIL_QUEUE_Flush] noreturn:[HAL_NVIC_EnableIRQ]

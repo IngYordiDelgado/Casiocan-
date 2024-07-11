@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17754726889576355965">
+  <FileInfo check="ctu">
+<function-call call-id="app/hel_lcd.h:162:15" call-funcname="HEL_LCD_Init" call-argnr="1" file="app/app_display.c" line="179" col="15" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/app_display.c:47:13" call-funcname="TimeFormat" call-argnr="1" file="app/app_display.c" line="184" col="13" call-argexpr="TimeStr" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_display.c" line="186" col="24" call-argexpr="&amp;Display_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/app_display.c:86:13" call-funcname="DateFormat" call-argnr="1" file="app/app_display.c" line="191" col="13" call-argexpr="DateStr" call-argvaluetype="7" call-argvalue="16"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_display.c" line="193" col="24" call-argexpr="&amp;Display_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:168:15" call-funcname="HEL_LCD_Backlight" call-argnr="1" file="app/app_display.c" line="199" col="20" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:170:15" call-funcname="HEL_LCD_Clear" call-argnr="1" file="app/app_display.c" line="200" col="16" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="1" file="app/app_display.c" line="202" col="20" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="2" file="app/app_display.c" line="202" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:166:15" call-funcname="HEL_LCD_String" call-argnr="1" file="app/app_display.c" line="203" col="17" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:166:15" call-funcname="HEL_LCD_String" call-argnr="2" file="app/app_display.c" line="203" col="17" call-argexpr="DateStr" call-argvaluetype="7" call-argvalue="16"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="1" file="app/app_display.c" line="207" col="22" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="3" file="app/app_display.c" line="207" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="1" file="app/app_display.c" line="208" col="17" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="1" file="app/app_display.c" line="210" col="20" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:166:15" call-funcname="HEL_LCD_String" call-argnr="1" file="app/app_display.c" line="212" col="17" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:166:15" call-funcname="HEL_LCD_String" call-argnr="2" file="app/app_display.c" line="212" col="17" call-argexpr="TimeStr" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="1" file="app/app_display.c" line="222" col="20" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="3" file="app/app_display.c" line="222" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="1" file="app/app_display.c" line="223" col="15" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="2" file="app/app_display.c" line="223" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="1" file="app/app_display.c" line="224" col="20" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="1" file="app/app_display.c" line="225" col="15" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="2" file="app/app_display.c" line="225" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:166:15" call-funcname="HEL_LCD_String" call-argnr="1" file="app/app_display.c" line="226" col="17" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:168:15" call-funcname="HEL_LCD_Backlight" call-argnr="1" file="app/app_display.c" line="228" col="20" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:168:15" call-funcname="HEL_LCD_Backlight" call-argnr="2" file="app/app_display.c" line="228" col="20" call-argexpr="lcdBacklight_state" call-argvaluetype="0" call-argvalue="0">
+  <path file="app/app_display.c" line="227" col="46" info="Assignment &apos;lcdBacklight_state=(~lcdBacklight_state)&amp;0x01&apos;, assigned value is 0"/>
+</function-call><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="1" file="app/app_display.c" line="236" col="20" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="3" file="app/app_display.c" line="236" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="1" file="app/app_display.c" line="237" col="15" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="2" file="app/app_display.c" line="237" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="1" file="app/app_display.c" line="238" col="20" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/app_display.c:19:13" call-funcname="AlarmFormat" call-argnr="1" file="app/app_display.c" line="239" col="14" call-argexpr="Str" call-argvaluetype="7" call-argvalue="6"/><function-call call-id="app/hel_lcd.h:166:15" call-funcname="HEL_LCD_String" call-argnr="1" file="app/app_display.c" line="242" col="17" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:166:15" call-funcname="HEL_LCD_String" call-argnr="2" file="app/app_display.c" line="242" col="17" call-argexpr="AlarmStr" call-argvaluetype="7" call-argvalue="12"/><function-call call-id="app/scheduler.h:42:13" call-funcname="HIL_SCHEDULER_StopTask" call-argnr="1" file="app/app_display.c" line="244" col="31" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="1" file="app/app_display.c" line="249" col="20" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:167:15" call-funcname="HEL_LCD_SetCursor" call-argnr="3" file="app/app_display.c" line="249" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:166:15" call-funcname="HEL_LCD_String" call-argnr="1" file="app/app_display.c" line="250" col="17" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="1" file="app/app_display.c" line="251" col="15" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="2" file="app/app_display.c" line="251" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:166:15" call-funcname="HEL_LCD_String" call-argnr="1" file="app/app_display.c" line="252" col="17" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="1" file="app/app_display.c" line="253" col="15" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="2" file="app/app_display.c" line="253" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="app/hel_lcd.h:166:15" call-funcname="HEL_LCD_String" call-argnr="1" file="app/app_display.c" line="254" col="17" call-argexpr="&amp;LCDHandler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/scheduler.h:42:13" call-funcname="HIL_SCHEDULER_StopTask" call-argnr="1" file="app/app_display.c" line="256" col="31" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:22:16" call-funcname="HIL_QUEUE_IsEmpty" call-argnr="1" file="app/app_display.c" line="280" col="27" call-argexpr="&amp;Display_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:19:16" call-funcname="HIL_QUEUE_Read" call-argnr="1" file="app/app_display.c" line="282" col="25" call-argexpr="&amp;Display_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:19:16" call-funcname="HIL_QUEUE_Read" call-argnr="2" file="app/app_display.c" line="282" col="25" call-argexpr="&amp;msg_struct" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/app_display.c:47:13" call-funcname="TimeFormat" call-argnr="2" file="app/app_display.c" line="184" col="3" my-id="app/app_display.c:182:13" my-argnr="1"/>
+<function-call call-id="app/app_display.c:86:13" call-funcname="DateFormat" call-argnr="2" file="app/app_display.c" line="191" col="3" my-id="app/app_display.c:189:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="app/app_display.c:19:13" my-argnr="1" my-argname="str" file="app/app_display.c" line="41" col="16" value="0"/>
+    <unsafe-usage my-id="app/app_display.c:19:13" my-argnr="2" my-argname="Alarm" file="app/app_display.c" line="23" col="10" value="0"/>
+    <unsafe-usage my-id="app/app_display.c:47:13" my-argnr="1" my-argname="str" file="app/app_display.c" line="79" col="16" value="0"/>
+    <unsafe-usage my-id="app/app_display.c:47:13" my-argnr="2" my-argname="msg_struct" file="app/app_display.c" line="52" col="10" value="0"/>
+    <unsafe-usage my-id="app/app_display.c:86:13" my-argnr="1" my-argname="str" file="app/app_display.c" line="143" col="16" value="0"/>
+    <unsafe-usage my-id="app/app_display.c:86:13" my-argnr="2" my-argname="msg_struct" file="app/app_display.c" line="115" col="10" value="0"/>
+    <unsafe-usage my-id="app/app_display.c:196:13" my-argnr="1" my-argname="msg_struct" file="app/app_display.c" line="205" col="6" value="0"/>
+    <unsafe-usage my-id="app/app_display.c:246:13" my-argnr="1" my-argname="msg_struct" file="app/app_display.c" line="255" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="app/app_display.c:19:13" my-argnr="1" my-argname="str" file="app/app_display.c" line="41" col="16" value="0"/>
+    <unsafe-usage my-id="app/app_display.c:47:13" my-argnr="1" my-argname="str" file="app/app_display.c" line="79" col="16" value="0"/>
+    <unsafe-usage my-id="app/app_display.c:86:13" my-argnr="1" my-argname="str" file="app/app_display.c" line="143" col="16" value="0"/>
+    <unsafe-usage my-id="app/app_display.c:196:13" my-argnr="1" my-argname="msg_struct" file="app/app_display.c" line="205" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="AlarmFormat" lineNumber="19"/>
+    <functiondecl functionName="TimeFormat" lineNumber="47"/>
+    <functiondecl functionName="DateFormat" lineNumber="86"/>
+    <functiondecl functionName="display_Init" lineNumber="152"/>
+    <functiondecl functionName="Display_TimeStr_Processing" lineNumber="182"/>
+    <functiondecl functionName="Display_DateStr_Processing" lineNumber="189"/>
+    <functiondecl functionName="Display_Lcd_Write" lineNumber="196"/>
+    <functiondecl functionName="Display_Alamr_Active" lineNumber="218"/>
+    <functiondecl functionName="Display_Alarm_Set" lineNumber="231"/>
+    <functiondecl functionName="Display_Alarm_No_Set" lineNumber="246"/>
+    <functiondecl functionName="Display_Do_Nothing" lineNumber="258"/>
+    <functiondecl functionName="display_Task" lineNumber="264"/>
+    <functioncall functionName="AlarmFormat"/>
+    <functioncall functionName="DISPLAY_ALARM_ACTIVE"/>
+    <functioncall functionName="DISPLAY_ALARM_NOSET"/>
+    <functioncall functionName="DISPLAY_ALARM_SET"/>
+    <functioncall functionName="DISPLAY_DATESTR_PROCESSING"/>
+    <functioncall functionName="DISPLAY_LCD_WRITE"/>
+    <functioncall functionName="DISPLAY_NO_MSG"/>
+    <functioncall functionName="DISPLAY_TIMESTR_PROCESSING"/>
+    <functioncall functionName="DateFormat"/>
+    <functioncall functionName="Delay_us_Init"/>
+    <functioncall functionName="Display_Alamr_Active"/>
+    <functioncall functionName="Display_Alarm_No_Set"/>
+    <functioncall functionName="Display_Alarm_Set"/>
+    <functioncall functionName="Display_DateStr_Processing"/>
+    <functioncall functionName="Display_Do_Nothing"/>
+    <functioncall functionName="Display_Lcd_Write"/>
+    <functioncall functionName="Display_TimeStr_Processing"/>
+    <functioncall functionName="GPIOB"/>
+    <functioncall functionName="GPIOC"/>
+    <functioncall functionName="GPIO_PIN_12"/>
+    <functioncall functionName="GPIO_PIN_15"/>
+    <functioncall functionName="GPIO_PIN_2"/>
+    <functioncall functionName="GPIO_PIN_8"/>
+    <functioncall functionName="GPIO_PIN_9"/>
+    <functioncall functionName="HAL_GPIO_TogglePin"/>
+    <functioncall functionName="HAL_SPI_Init"/>
+    <functioncall functionName="HEL_LCD_Backlight"/>
+    <functioncall functionName="HEL_LCD_Clear"/>
+    <functioncall functionName="HEL_LCD_Data"/>
+    <functioncall functionName="HEL_LCD_Init"/>
+    <functioncall functionName="HEL_LCD_SetCursor"/>
+    <functioncall functionName="HEL_LCD_String"/>
+    <functioncall functionName="HIL_QUEUE_IsEmpty"/>
+    <functioncall functionName="HIL_QUEUE_Read"/>
+    <functioncall functionName="HIL_QUEUE_Write"/>
+    <functioncall functionName="HIL_SCHEDULER_StopTask"/>
+    <functioncall functionName="SET"/>
+    <functioncall functionName="SPI2"/>
+    <functioncall functionName="SPI_BAUDRATEPRESCALER_16"/>
+    <functioncall functionName="SPI_CRCCALCULATION_DISABLED"/>
+    <functioncall functionName="SPI_DATASIZE_8BIT"/>
+    <functioncall functionName="SPI_DIRECTION_2LINES"/>
+    <functioncall functionName="SPI_FIRSTBIT_MSB"/>
+    <functioncall functionName="SPI_MODE_MASTER"/>
+    <functioncall functionName="SPI_NSS_SOFT"/>
+    <functioncall functionName="SPI_PHASE_2EDGE"/>
+    <functioncall functionName="SPI_POLARITY_HIGH"/>
+    <functioncall functionName="SPI_TIMODE_DISABLED"/>
+    <functioncall functionName="TimeFormat"/>
+    <functioncall functionName="__itoa"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="strcat"/>
+    <functioncall functionName="strcpy"/>
+  </FileInfo>
+</analyzerinfo>

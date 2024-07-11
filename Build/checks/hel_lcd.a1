@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10487412793516502620">
+  <FileInfo check="ctu">
+<function-call call-id="app/hel_lcd.h:163:15" call-funcname="HEL_LCD_MspInit" call-argnr="1" file="app/hel_lcd.c" line="63" col="3" my-id="app/hel_lcd.h:162:15" my-argnr="1"/>
+<function-call call-id="app/hel_lcd.h:165:15" call-funcname="HEL_LCD_Data" call-argnr="1" file="app/hel_lcd.c" line="129" col="5" my-id="app/hel_lcd.h:166:15" my-argnr="1"/>
+<function-call call-id="app/hel_lcd.h:164:15" call-funcname="HEL_LCD_Command" call-argnr="1" file="app/hel_lcd.c" line="161" col="5" my-id="app/hel_lcd.h:167:15" my-argnr="1"/>
+<function-call call-id="app/hel_lcd.h:164:15" call-funcname="HEL_LCD_Command" call-argnr="1" file="app/hel_lcd.c" line="185" col="3" my-id="app/hel_lcd.h:169:15" my-argnr="1"/>
+<function-call call-id="app/hel_lcd.h:164:15" call-funcname="HEL_LCD_Command" call-argnr="1" file="app/hel_lcd.c" line="196" col="3" my-id="app/hel_lcd.h:170:15" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="app/hel_lcd.h:164:15" my-argnr="1" my-argname="hlcd" file="app/hel_lcd.c" line="95" col="21" value="0"/>
+    <unsafe-usage my-id="app/hel_lcd.h:165:15" my-argnr="1" my-argname="hlcd" file="app/hel_lcd.c" line="111" col="23" value="0"/>
+    <unsafe-usage my-id="app/hel_lcd.h:166:15" my-argnr="2" my-argname="str" file="app/hel_lcd.c" line="127" col="33" value="0"/>
+    <unsafe-usage my-id="app/hel_lcd.h:168:15" my-argnr="1" my-argname="hlcd" file="app/hel_lcd.c" line="173" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="app/hel_lcd.h:166:15" my-argnr="2" my-argname="str" file="app/hel_lcd.c" line="127" col="33" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="Delay_us"/>
+    <functioncall functionName="HAL_Delay"/>
+    <functioncall functionName="HAL_GPIO_WritePin"/>
+    <functioncall functionName="HAL_SPI_Transmit"/>
+    <functioncall functionName="HEL_LCD_Command"/>
+    <functioncall functionName="HEL_LCD_Data"/>
+    <functioncall functionName="HEL_LCD_MspInit"/>
+    <functioncall functionName="RESET"/>
+    <functioncall functionName="SET"/>
+    <functioncall functionName="strlen"/>
+  </FileInfo>
+</analyzerinfo>

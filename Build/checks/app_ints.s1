@@ -1,0 +1,8 @@
+NMI_Handler
+HardFault_Handler call:[assert_param] noreturn:[assert_param]
+SVC_Handler
+PendSV_Handler
+SysTick_Handler call:[HAL_IncTick] noreturn:[HAL_IncTick]
+EXTI4_15_IRQHandler call:[HAL_GPIO_EXTI_IRQHandler] noreturn:[HAL_GPIO_EXTI_IRQHandler]
+TIM16_FDCAN_IT0_IRQHandler global:[CANHandler] call:[HAL_FDCAN_IRQHandler] noreturn:[HAL_FDCAN_IRQHandler]
+RTC_TAMP_IRQHandler global:[hrtc] call:[HAL_RTC_AlarmIRQHandler] noreturn:[HAL_RTC_AlarmIRQHandler]

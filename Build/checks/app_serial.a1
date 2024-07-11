@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11968054286390447273">
+  <FileInfo check="ctu">
+<function-call call-id="app/hil_queue.h:21:13" call-funcname="HIL_QUEUE_Init" call-argnr="1" file="app/app_serial.c" line="112" col="17" call-argexpr="&amp;Serial_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:21:13" call-funcname="HIL_QUEUE_Init" call-argnr="1" file="app/app_serial.c" line="117" col="17" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:23:16" call-funcname="HIL_QUEUE_IsFull" call-argnr="1" file="app/app_serial.c" line="163" col="25" call-argexpr="&amp;Serial_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/app_serial.c:140:16" call-funcname="CanTp_SingleFrameRx" call-argnr="1" file="app/app_serial.c" line="165" col="29" call-argexpr="RxData" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="app/app_serial.c:140:16" call-funcname="CanTp_SingleFrameRx" call-argnr="2" file="app/app_serial.c" line="165" col="29" call-argexpr="&amp;bytes_received" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="app/hil_queue.h:24:16" call-funcname="HIL_QUEUE_WriteISR" call-argnr="1" file="app/app_serial.c" line="167" col="34" call-argexpr="&amp;Serial_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:24:16" call-funcname="HIL_QUEUE_WriteISR" call-argnr="2" file="app/app_serial.c" line="167" col="34" call-argexpr="RxData" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_serial.c" line="235" col="26" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_serial.c" line="235" col="26" call-argexpr="&amp;msg_struct" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_serial.c" line="238" col="26" call-argexpr="&amp;Serial_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_serial.c" line="238" col="26" call-argexpr="Internal_Event" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_serial.c" line="245" col="26" call-argexpr="&amp;Serial_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_serial.c" line="245" col="26" call-argexpr="Internal_Event" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_serial.c" line="263" col="26" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_serial.c" line="263" col="26" call-argexpr="&amp;msg_struct" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_serial.c" line="266" col="26" call-argexpr="&amp;Serial_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_serial.c" line="266" col="26" call-argexpr="Internal_Event" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_serial.c" line="272" col="26" call-argexpr="&amp;Serial_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_serial.c" line="272" col="26" call-argexpr="Internal_Event" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_serial.c" line="297" col="26" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_serial.c" line="297" col="26" call-argexpr="&amp;msg_struct" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_serial.c" line="300" col="26" call-argexpr="&amp;Serial_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_serial.c" line="300" col="26" call-argexpr="Internal_Event" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_serial.c" line="306" col="26" call-argexpr="&amp;Serial_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_serial.c" line="306" col="26" call-argexpr="Internal_Event" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="app/app_serial.c:127:13" call-funcname="CanTp_SingleFrameTx" call-argnr="1" file="app/app_serial.c" line="315" col="22" call-argexpr="ok_msg" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="app/app_serial.c:127:13" call-funcname="CanTp_SingleFrameTx" call-argnr="1" file="app/app_serial.c" line="323" col="22" call-argexpr="err_msg" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="app/hil_queue.h:26:16" call-funcname="HIL_QUEUE_IsEmptyISR" call-argnr="1" file="app/app_serial.c" line="345" col="30" call-argexpr="&amp;Serial_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:19:16" call-funcname="HIL_QUEUE_Read" call-argnr="1" file="app/app_serial.c" line="348" col="22" call-argexpr="&amp;Serial_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:19:16" call-funcname="HIL_QUEUE_Read" call-argnr="2" file="app/app_serial.c" line="348" col="22" call-argexpr="RxData" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="app/app_serial.c:211:16" call-funcname="Time_Config_IsValid" call-argnr="1" file="app/app_serial.c" line="227" col="6" my-id="app/app_serial.c:222:13" my-argnr="1"/>
+<function-call call-id="app/app_serial.c:276:16" call-funcname="Alarm_Config_IsValid" call-argnr="1" file="app/app_serial.c" line="291" col="7" my-id="app/app_serial.c:286:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="app/app_serial.c:127:13" my-argnr="1" my-argname="data" file="app/app_serial.c" line="129" col="3" value="0"/>
+    <unsafe-usage my-id="app/app_serial.c:140:16" my-argnr="1" my-argname="data" file="app/app_serial.c" line="143" col="8" value="0"/>
+    <unsafe-usage my-id="app/app_serial.c:211:16" my-argnr="1" my-argname="RxData" file="app/app_serial.c" line="214" col="25" value="2"/>
+    <unsafe-usage my-id="app/app_serial.c:249:13" my-argnr="1" my-argname="RxData" file="app/app_serial.c" line="254" col="40" value="2"/>
+    <unsafe-usage my-id="app/app_serial.c:276:16" my-argnr="1" my-argname="RxData" file="app/app_serial.c" line="279" col="27" value="2"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="app/app_serial.c:127:13" my-argnr="1" my-argname="data" file="app/app_serial.c" line="129" col="3" value="0"/>
+    <unsafe-usage my-id="app/app_serial.c:140:16" my-argnr="1" my-argname="data" file="app/app_serial.c" line="143" col="8" value="0"/>
+    <unsafe-usage my-id="app/app_serial.c:211:16" my-argnr="1" my-argname="RxData" file="app/app_serial.c" line="214" col="25" value="0"/>
+    <unsafe-usage my-id="app/app_serial.c:249:13" my-argnr="1" my-argname="RxData" file="app/app_serial.c" line="254" col="40" value="0"/>
+    <unsafe-usage my-id="app/app_serial.c:276:16" my-argnr="1" my-argname="RxData" file="app/app_serial.c" line="279" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="app/app_serial.c:140:16" my-argnr="1" my-argname="data" file="app/app_serial.c" line="143" col="8" value="0"/>
+    <unsafe-usage my-id="app/app_serial.c:211:16" my-argnr="1" my-argname="RxData" file="app/app_serial.c" line="214" col="25" value="0"/>
+    <unsafe-usage my-id="app/app_serial.c:249:13" my-argnr="1" my-argname="RxData" file="app/app_serial.c" line="254" col="40" value="0"/>
+    <unsafe-usage my-id="app/app_serial.c:276:16" my-argnr="1" my-argname="RxData" file="app/app_serial.c" line="279" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="CanTp_SingleFrameTx" lineNumber="127"/>
+    <functiondecl functionName="CanTp_SingleFrameRx" lineNumber="140"/>
+    <functiondecl functionName="bcd_to_decimal" lineNumber="179"/>
+    <functiondecl functionName="date_validation" lineNumber="184"/>
+    <functiondecl functionName="Do_Nothing" lineNumber="207"/>
+    <functiondecl functionName="Time_Config_IsValid" lineNumber="211"/>
+    <functiondecl functionName="Time_Config" lineNumber="222"/>
+    <functiondecl functionName="Date_Config" lineNumber="249"/>
+    <functiondecl functionName="Alarm_Config_IsValid" lineNumber="276"/>
+    <functiondecl functionName="Alarm_Config" lineNumber="286"/>
+    <functiondecl functionName="Ok_Msg_Acknowledge" lineNumber="310"/>
+    <functiondecl functionName="Error_Msg_Acknowledge" lineNumber="319"/>
+    <functioncall functionName="Alarm_Config"/>
+    <functioncall functionName="Alarm_Config_IsValid"/>
+    <functioncall functionName="CanTp_SingleFrameRx"/>
+    <functioncall functionName="CanTp_SingleFrameTx"/>
+    <functioncall functionName="DISABLE"/>
+    <functioncall functionName="Date_Config"/>
+    <functioncall functionName="Do_Nothing"/>
+    <functioncall functionName="Error_Msg_Acknowledge"/>
+    <functioncall functionName="FDCAN1"/>
+    <functioncall functionName="FDCAN_CLASSIC_CAN"/>
+    <functioncall functionName="FDCAN_CLOCK_DIV2"/>
+    <functioncall functionName="FDCAN_DATA_FRAME"/>
+    <functioncall functionName="FDCAN_DLC_BYTES_8"/>
+    <functioncall functionName="FDCAN_FILTER_MASK"/>
+    <functioncall functionName="FDCAN_FILTER_REMOTE"/>
+    <functioncall functionName="FDCAN_FILTER_TO_RXFIFO0"/>
+    <functioncall functionName="FDCAN_FRAME_CLASSIC"/>
+    <functioncall functionName="FDCAN_IT_RX_FIFO0_NEW_MESSAGE"/>
+    <functioncall functionName="FDCAN_MODE_NORMAL"/>
+    <functioncall functionName="FDCAN_REJECT"/>
+    <functioncall functionName="FDCAN_RX_FIFO0"/>
+    <functioncall functionName="FDCAN_STANDARD_ID"/>
+    <functioncall functionName="FDCAN_TX_FIFO_OPERATION"/>
+    <functioncall functionName="HAL_FDCAN_ActivateNotification"/>
+    <functioncall functionName="HAL_FDCAN_AddMessageToTxFifoQ"/>
+    <functioncall functionName="HAL_FDCAN_ConfigFilter"/>
+    <functioncall functionName="HAL_FDCAN_ConfigGlobalFilter"/>
+    <functioncall functionName="HAL_FDCAN_GetRxMessage"/>
+    <functioncall functionName="HAL_FDCAN_Init"/>
+    <functioncall functionName="HAL_FDCAN_Start"/>
+    <functioncall functionName="HIL_QUEUE_Init"/>
+    <functioncall functionName="HIL_QUEUE_IsEmptyISR"/>
+    <functioncall functionName="HIL_QUEUE_IsFull"/>
+    <functioncall functionName="HIL_QUEUE_Read"/>
+    <functioncall functionName="HIL_QUEUE_Write"/>
+    <functioncall functionName="HIL_QUEUE_WriteISR"/>
+    <functioncall functionName="Ok_Msg_Acknowledge"/>
+    <functioncall functionName="SERIAL_ERROR_MSG"/>
+    <functioncall functionName="SERIAL_LAST"/>
+    <functioncall functionName="SERIAL_MSG_ALARM_CONFIG"/>
+    <functioncall functionName="SERIAL_MSG_DATE_CONFIG"/>
+    <functioncall functionName="SERIAL_MSG_NONE"/>
+    <functioncall functionName="SERIAL_MSG_TIME_CONFIG"/>
+    <functioncall functionName="SERIAL_OK_MSG"/>
+    <functioncall functionName="TIM16_FDCAN_IT0_IRQn"/>
+    <functioncall functionName="Time_Config"/>
+    <functioncall functionName="Time_Config_IsValid"/>
+    <functioncall functionName="bcd_to_decimal"/>
+    <functioncall functionName="date_validation"/>
+    <functioncall functionName="leap"/>
+  </FileInfo>
+</analyzerinfo>

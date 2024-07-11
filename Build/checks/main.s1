@@ -1,0 +1,5 @@
+main global:[Sche,TimerId] call:[HAL_Init,HIL_SCHEDULER_Init,HIL_SCHEDULER_RegisterTask,HIL_SCHEDULER_RegisterTimer,HIL_SCHEDULER_Start,__GPIOC_CLK_ENABLE] noreturn:[HIL_SCHEDULER_Start]
+hearth_init global:[hearth_tick] call:[HAL_GPIO_Init,HAL_GPIO_WritePin,HAL_GetTick,__HAL_RCC_GPIOC_CLK_ENABLE] noreturn:[HAL_GetTick]
+hearth_beat global:[hearth_tick] call:[HAL_GPIO_TogglePin,HAL_GetTick] noreturn:[HAL_GPIO_TogglePin]
+dog_init global:[Wwdg_Handler] call:[HAL_WWDG_Init] noreturn:[HAL_WWDG_Init]
+peth_the_dog global:[Wwdg_Handler] call:[HAL_GPIO_TogglePin,HAL_WWDG_Refresh] noreturn:[HAL_WWDG_Refresh]

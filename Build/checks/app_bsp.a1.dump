@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<dumps language="c">
+  <platform name="unix32" char_bit="8" short_bit="16" int_bit="32" long_bit="32" long_long_bit="64" pointer_bit="32"/>
+  <rawtokens>
+    <file index="0" name="app/app_bsp.c"/>
+    <file index="1" name="app/app_bsp.h"/>
+    <tok fileIndex="0" linenr="1" column="1" str="#"/>
+    <tok fileIndex="0" linenr="1" column="2" str="include"/>
+    <tok fileIndex="0" linenr="1" column="10" str="&quot;app_bsp.h&quot;"/>
+    <tok fileIndex="0" linenr="3" column="1" str="void"/>
+    <tok fileIndex="0" linenr="3" column="6" str="Delay_us_Init"/>
+    <tok fileIndex="0" linenr="3" column="19" str="("/>
+    <tok fileIndex="0" linenr="3" column="20" str="void"/>
+    <tok fileIndex="0" linenr="3" column="24" str=")"/>
+    <tok fileIndex="0" linenr="4" column="1" str="{"/>
+    <tok fileIndex="0" linenr="5" column="3" str="__TIM6_CLK_ENABLE"/>
+    <tok fileIndex="0" linenr="5" column="20" str="("/>
+    <tok fileIndex="0" linenr="5" column="21" str=")"/>
+    <tok fileIndex="0" linenr="5" column="22" str=";"/>
+    <tok fileIndex="0" linenr="6" column="3" str="TIM6_Handler"/>
+    <tok fileIndex="0" linenr="6" column="15" str="."/>
+    <tok fileIndex="0" linenr="6" column="16" str="Instance"/>
+    <tok fileIndex="0" linenr="6" column="25" str="="/>
+    <tok fileIndex="0" linenr="6" column="27" str="TIM6"/>
+    <tok fileIndex="0" linenr="6" column="31" str=";"/>
+    <tok fileIndex="0" linenr="7" column="3" str="TIM6_Handler"/>
+    <tok fileIndex="0" linenr="7" column="15" str="."/>
+    <tok fileIndex="0" linenr="7" column="16" str="Init"/>
+    <tok fileIndex="0" linenr="7" column="20" str="."/>
+    <tok fileIndex="0" linenr="7" column="21" str="Prescaler"/>
+    <tok fileIndex="0" linenr="7" column="31" str="="/>
+    <tok fileIndex="0" linenr="7" column="33" str="64"/>
+    <tok fileIndex="0" linenr="7" column="35" str=";"/>
+    <tok fileIndex="0" linenr="8" column="3" str="TIM6_Handler"/>
+    <tok fileIndex="0" linenr="8" column="15" str="."/>
+    <tok fileIndex="0" linenr="8" column="16" str="Init"/>
+    <tok fileIndex="0" linenr="8" column="20" str="."/>
+    <tok fileIndex="0" linenr="8" column="21" str="CounterMode"/>
+    <tok fileIndex="0" linenr="8" column="33" str="="/>
+    <tok fileIndex="0" linenr="8" column="35" str="TIM_COUNTERMODE_UP"/>
+    <tok fileIndex="0" linenr="8" column="53" str=";"/>
+    <tok fileIndex="0" linenr="9" column="3" str="TIM6_Handler"/>
+    <tok fileIndex="0" linenr="9" column="15" str="."/>
+    <tok fileIndex="0" linenr="9" column="16" str="Init"/>
+    <tok fileIndex="0" linenr="9" column="20" str="."/>
+    <tok fileIndex="0" linenr="9" column="21" str="Period"/>
+    <tok fileIndex="0" linenr="9" column="28" str="="/>
+    <tok fileIndex="0" linenr="9" column="30" str="1000"/>
+    <tok fileIndex="0" linenr="9" column="34" str=";"/>
+    <tok fileIndex="0" linenr="10" column="3" str="HAL_TIM_Base_Init"/>
+    <tok fileIndex="0" linenr="10" column="20" str="("/>
+    <tok fileIndex="0" linenr="10" column="22" str="&amp;"/>
+    <tok fileIndex="0" linenr="10" column="23" str="TIM6_Handler"/>
+    <tok fileIndex="0" linenr="10" column="36" str=")"/>
+    <tok fileIndex="0" linenr="10" column="37" str=";"/>
+    <tok fileIndex="0" linenr="11" column="1" str="}"/>
+    <tok fileIndex="0" linenr="12" column="1" str="void"/>
+    <tok fileIndex="0" linenr="12" column="6" str="Delay_us"/>
+    <tok fileIndex="0" linenr="12" column="14" str="("/>
+    <tok fileIndex="0" linenr="12" column="15" str="uint16_t"/>
+    <tok fileIndex="0" linenr="12" column="24" str="delay"/>
+    <tok fileIndex="0" linenr="12" column="29" str=")"/>
+    <tok fileIndex="0" linenr="13" column="1" str="{"/>
+    <tok fileIndex="0" linenr="14" column="3" str="HAL_TIM_Base_Start"/>
+    <tok fileIndex="0" linenr="14" column="21" str="("/>
+    <tok fileIndex="0" linenr="14" column="22" str="&amp;"/>
+    <tok fileIndex="0" linenr="14" column="23" str="TIM6_Handler"/>
+    <tok fileIndex="0" linenr="14" column="35" str=")"/>
+    <tok fileIndex="0" linenr="14" column="36" str=";"/>
+    <tok fileIndex="0" linenr="15" column="3" str="while"/>
+    <tok fileIndex="0" linenr="15" column="8" str="("/>
+    <tok fileIndex="0" linenr="15" column="10" str="__HAL_TIM_GetCounter"/>
+    <tok fileIndex="0" linenr="15" column="30" str="("/>
+    <tok fileIndex="0" linenr="15" column="31" str="&amp;"/>
+    <tok fileIndex="0" linenr="15" column="32" str="TIM6_Handler"/>
+    <tok fileIndex="0" linenr="15" column="44" str=")"/>
+    <tok fileIndex="0" linenr="15" column="46" str="&lt;"/>
+    <tok fileIndex="0" linenr="15" column="48" str="delay"/>
+    <tok fileIndex="0" linenr="15" column="54" str=")"/>
+    <tok fileIndex="0" linenr="16" column="3" str="{"/>
+    <tok fileIndex="0" linenr="18" column="3" str="}"/>
+    <tok fileIndex="0" linenr="19" column="3" str="__HAL_TIM_SET_COUNTER"/>
+    <tok fileIndex="0" linenr="19" column="24" str="("/>
+    <tok fileIndex="0" linenr="19" column="25" str="&amp;"/>
+    <tok fileIndex="0" linenr="19" column="26" str="TIM6_Handler"/>
+    <tok fileIndex="0" linenr="19" column="38" str=","/>
+    <tok fileIndex="0" linenr="19" column="39" str="0"/>
+    <tok fileIndex="0" linenr="19" column="40" str=")"/>
+    <tok fileIndex="0" linenr="19" column="41" str=";"/>
+    <tok fileIndex="0" linenr="20" column="3" str="HAL_TIM_Base_Stop"/>
+    <tok fileIndex="0" linenr="20" column="20" str="("/>
+    <tok fileIndex="0" linenr="20" column="21" str="&amp;"/>
+    <tok fileIndex="0" linenr="20" column="22" str="TIM6_Handler"/>
+    <tok fileIndex="0" linenr="20" column="34" str=")"/>
+    <tok fileIndex="0" linenr="20" column="35" str=";"/>
+    <tok fileIndex="0" linenr="21" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c99"/>
+    <cpp version="c++23"/>
+  </standards>
+  <directivelist>
+    <directive file="app/app_bsp.c" linenr="1" str="#include &quot;app_bsp.h&quot;"/>
+    <directive file="app/app_bsp.h" linenr="1" str="#ifndef BSP_H_"/>
+    <directive file="app/app_bsp.h" linenr="2" str="#define BSP_H_"/>
+    <directive file="app/app_bsp.h" linenr="4" str="#include &quot;stm32g0xx.h&quot;"/>
+    <directive file="app/app_bsp.h" linenr="5" str="#include &lt;stdint.h&gt;"/>
+    <directive file="app/app_bsp.h" linenr="10" str="#endif"/>
+  </directivelist>
+  <macro-usage>
+    <macro name="BSP_H_" file="app/app_bsp.h" line="2" column="9" usefile="app/app_bsp.h" useline="1" usecolumn="9" is-known-value="true"/>
+  </macro-usage>
+  <tokenlist>
+    <token id="0x5563d7ab2700" file="app/app_bsp.h" linenr="6" column="3" str="extern" scope="0x5563d7aa5e20" type="name"/>
+    <token id="0x5563d7ab26a0" file="app/app_bsp.h" linenr="6" column="10" str="TIM_HandleTypeDef" scope="0x5563d7aa5e20" type="name"/>
+    <token id="0x5563d7ab27c0" file="app/app_bsp.h" linenr="6" column="28" str="TIM6_Handler" scope="0x5563d7aa5e20" type="name" varId="1" exprId="1" variable="0x5563d7ab2560"/>
+    <token id="0x5563d7ab2760" file="app/app_bsp.h" linenr="6" column="40" str=";" scope="0x5563d7aa5e20"/>
+    <token id="0x5563d7ab25c0" file="app/app_bsp.h" linenr="7" column="3" str="void" scope="0x5563d7aa5e20" type="name"/>
+    <token id="0x5563d7ab2640" file="app/app_bsp.h" linenr="7" column="8" str="Delay_us_Init" scope="0x5563d7aa5e20" type="name" function="0x5563d7aa5fb0"/>
+    <token id="0x5563d7ab3900" file="app/app_bsp.h" linenr="7" column="21" str="(" scope="0x5563d7aa5e20" isRemovedVoidParameter="true" link="0x5563d7ab2880" valueType-type="void" valueType-reference="None"/>
+    <token id="0x5563d7ab2880" file="app/app_bsp.h" linenr="7" column="26" str=")" scope="0x5563d7aa5e20" link="0x5563d7ab3900"/>
+    <token id="0x5563d7ab2820" file="app/app_bsp.h" linenr="7" column="27" str=";" scope="0x5563d7aa5e20"/>
+    <token id="0x5563d7ab2940" file="app/app_bsp.h" linenr="8" column="3" str="void" scope="0x5563d7aa5e20" type="name"/>
+    <token id="0x5563d7ab3840" file="app/app_bsp.h" linenr="8" column="8" str="Delay_us" scope="0x5563d7aa5e20" type="name" function="0x5563d7aa7820"/>
+    <token id="0x5563d7ab3d20" file="app/app_bsp.h" linenr="8" column="16" str="(" scope="0x5563d7aa5e20" link="0x5563d7ab28e0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x5563d7aade60" file="app/app_bsp.h" linenr="8" column="17" str="uint16_t" scope="0x5563d7aa5e20" type="name"/>
+    <token id="0x5563d7aadfa0" file="app/app_bsp.h" linenr="8" column="26" str="delay" scope="0x5563d7aa5e20" type="name" varId="2" exprId="2"/>
+    <token id="0x5563d7ab28e0" file="app/app_bsp.h" linenr="8" column="31" str=")" scope="0x5563d7aa5e20" link="0x5563d7ab3d20"/>
+    <token id="0x5563d7ab3240" file="app/app_bsp.h" linenr="8" column="32" str=";" scope="0x5563d7aa5e20"/>
+    <token id="0x5563d7ab3600" file="app/app_bsp.c" linenr="3" column="1" str="void" scope="0x5563d7aa5e20" type="name"/>
+    <token id="0x5563d7ab2d60" file="app/app_bsp.c" linenr="3" column="6" str="Delay_us_Init" scope="0x5563d7aa5e20" type="name" function="0x5563d7aa5fb0"/>
+    <token id="0x5563d7ab40e0" file="app/app_bsp.c" linenr="3" column="19" str="(" scope="0x5563d7aa5e20" isRemovedVoidParameter="true" link="0x5563d7ab30c0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x5563d7ab30c0" file="app/app_bsp.c" linenr="3" column="24" str=")" scope="0x5563d7aa5e20" link="0x5563d7ab40e0"/>
+    <token id="0x5563d7ab3060" file="app/app_bsp.c" linenr="4" column="1" str="{" scope="0x5563d7aaa030" link="0x5563d7ab2fa0"/>
+    <token id="0x5563d7ab3000" file="app/app_bsp.c" linenr="5" column="3" str="__TIM6_CLK_ENABLE" scope="0x5563d7aaa030" type="name" astParent="0x5563d7ab3360"/>
+    <token id="0x5563d7ab3360" file="app/app_bsp.c" linenr="5" column="20" str="(" scope="0x5563d7aaa030" link="0x5563d7ab35a0" exprId="11" astOperand1="0x5563d7ab3000"/>
+    <token id="0x5563d7ab35a0" file="app/app_bsp.c" linenr="5" column="21" str=")" scope="0x5563d7aaa030" link="0x5563d7ab3360"/>
+    <token id="0x5563d7ab3960" file="app/app_bsp.c" linenr="5" column="22" str=";" scope="0x5563d7aaa030"/>
+    <token id="0x5563d7ab3480" file="app/app_bsp.c" linenr="6" column="3" str="TIM6_Handler" scope="0x5563d7aaa030" type="name" varId="1" exprId="1" variable="0x5563d7ab2560" astParent="0x5563d7ab2f40"/>
+    <token id="0x5563d7ab2f40" file="app/app_bsp.c" linenr="6" column="15" str="." scope="0x5563d7aaa030" exprId="12" astParent="0x5563d7ab32a0" astOperand1="0x5563d7ab3480" astOperand2="0x5563d7ab34e0"/>
+    <token id="0x5563d7ab34e0" file="app/app_bsp.c" linenr="6" column="16" str="Instance" scope="0x5563d7aaa030" type="name" varId="3" exprId="3" astParent="0x5563d7ab2f40"/>
+    <token id="0x5563d7ab32a0" file="app/app_bsp.c" linenr="6" column="25" str="=" scope="0x5563d7aaa030" type="op" isAssignmentOp="true" exprId="13" astOperand1="0x5563d7ab2f40" astOperand2="0x5563d7ab3420"/>
+    <token id="0x5563d7ab3420" file="app/app_bsp.c" linenr="6" column="27" str="TIM6" scope="0x5563d7aaa030" type="name" exprId="9" astParent="0x5563d7ab32a0"/>
+    <token id="0x5563d7ab3120" file="app/app_bsp.c" linenr="6" column="31" str=";" scope="0x5563d7aaa030"/>
+    <token id="0x5563d7ab37e0" file="app/app_bsp.c" linenr="7" column="3" str="TIM6_Handler" scope="0x5563d7aaa030" type="name" varId="1" exprId="1" variable="0x5563d7ab2560" astParent="0x5563d7ab2c40"/>
+    <token id="0x5563d7ab2c40" file="app/app_bsp.c" linenr="7" column="15" str="." scope="0x5563d7aaa030" exprId="14" astParent="0x5563d7ab2ca0" astOperand1="0x5563d7ab37e0" astOperand2="0x5563d7ab2e20"/>
+    <token id="0x5563d7ab2e20" file="app/app_bsp.c" linenr="7" column="16" str="Init" scope="0x5563d7aaa030" type="name" varId="4" exprId="4" astParent="0x5563d7ab2c40"/>
+    <token id="0x5563d7ab2ca0" file="app/app_bsp.c" linenr="7" column="20" str="." scope="0x5563d7aaa030" exprId="15" astParent="0x5563d7ab2d00" astOperand1="0x5563d7ab2c40" astOperand2="0x5563d7ab3540"/>
+    <token id="0x5563d7ab3540" file="app/app_bsp.c" linenr="7" column="21" str="Prescaler" scope="0x5563d7aaa030" type="name" varId="5" exprId="5" astParent="0x5563d7ab2ca0"/>
+    <token id="0x5563d7ab2d00" file="app/app_bsp.c" linenr="7" column="31" str="=" scope="0x5563d7aaa030" type="op" isAssignmentOp="true" exprId="16" values="0x5563d7a99d10" astOperand1="0x5563d7ab2ca0" astOperand2="0x5563d7ab3780"/>
+    <token id="0x5563d7ab3780" file="app/app_bsp.c" linenr="7" column="33" str="64" scope="0x5563d7aaa030" type="number" isInt="true" values="0x5563d7a9a880" astParent="0x5563d7ab2d00" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x5563d7ab3d80" file="app/app_bsp.c" linenr="7" column="35" str=";" scope="0x5563d7aaa030"/>
+    <token id="0x5563d7ab3de0" file="app/app_bsp.c" linenr="8" column="3" str="TIM6_Handler" scope="0x5563d7aaa030" type="name" varId="1" exprId="1" variable="0x5563d7ab2560" astParent="0x5563d7ab3ea0"/>
+    <token id="0x5563d7ab3ea0" file="app/app_bsp.c" linenr="8" column="15" str="." scope="0x5563d7aaa030" exprId="14" astParent="0x5563d7ab4140" astOperand1="0x5563d7ab3de0" astOperand2="0x5563d7ab2e80"/>
+    <token id="0x5563d7ab2e80" file="app/app_bsp.c" linenr="8" column="16" str="Init" scope="0x5563d7aaa030" type="name" varId="4" exprId="4" astParent="0x5563d7ab3ea0"/>
+    <token id="0x5563d7ab4140" file="app/app_bsp.c" linenr="8" column="20" str="." scope="0x5563d7aaa030" exprId="18" astParent="0x5563d7ab3be0" astOperand1="0x5563d7ab3ea0" astOperand2="0x5563d7ab2b20"/>
+    <token id="0x5563d7ab2b20" file="app/app_bsp.c" linenr="8" column="21" str="CounterMode" scope="0x5563d7aaa030" type="name" varId="6" exprId="6" astParent="0x5563d7ab4140"/>
+    <token id="0x5563d7ab3be0" file="app/app_bsp.c" linenr="8" column="33" str="=" scope="0x5563d7aaa030" type="op" isAssignmentOp="true" exprId="19" astOperand1="0x5563d7ab4140" astOperand2="0x5563d7ab3660"/>
+    <token id="0x5563d7ab3660" file="app/app_bsp.c" linenr="8" column="35" str="TIM_COUNTERMODE_UP" scope="0x5563d7aaa030" type="name" exprId="10" astParent="0x5563d7ab3be0"/>
+    <token id="0x5563d7ab2a00" file="app/app_bsp.c" linenr="8" column="53" str=";" scope="0x5563d7aaa030"/>
+    <token id="0x5563d7ab2a60" file="app/app_bsp.c" linenr="9" column="3" str="TIM6_Handler" scope="0x5563d7aaa030" type="name" varId="1" exprId="1" variable="0x5563d7ab2560" astParent="0x5563d7ab3b20"/>
+    <token id="0x5563d7ab3b20" file="app/app_bsp.c" linenr="9" column="15" str="." scope="0x5563d7aaa030" exprId="14" astParent="0x5563d7ab4080" astOperand1="0x5563d7ab2a60" astOperand2="0x5563d7ab3f60"/>
+    <token id="0x5563d7ab3f60" file="app/app_bsp.c" linenr="9" column="16" str="Init" scope="0x5563d7aaa030" type="name" varId="4" exprId="4" astParent="0x5563d7ab3b20"/>
+    <token id="0x5563d7ab4080" file="app/app_bsp.c" linenr="9" column="20" str="." scope="0x5563d7aaa030" exprId="21" astParent="0x5563d7ab3f00" astOperand1="0x5563d7ab3b20" astOperand2="0x5563d7ab3fc0"/>
+    <token id="0x5563d7ab3fc0" file="app/app_bsp.c" linenr="9" column="21" str="Period" scope="0x5563d7aaa030" type="name" varId="7" exprId="7" astParent="0x5563d7ab4080"/>
+    <token id="0x5563d7ab3f00" file="app/app_bsp.c" linenr="9" column="28" str="=" scope="0x5563d7aaa030" type="op" isAssignmentOp="true" exprId="22" values="0x5563d7a99cb0" astOperand1="0x5563d7ab4080" astOperand2="0x5563d7ab29a0"/>
+    <token id="0x5563d7ab29a0" file="app/app_bsp.c" linenr="9" column="30" str="1000" scope="0x5563d7aaa030" type="number" isInt="true" values="0x5563d7a99b00" astParent="0x5563d7ab3f00" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x5563d7ab3e40" file="app/app_bsp.c" linenr="9" column="34" str=";" scope="0x5563d7aaa030"/>
+    <token id="0x5563d7ab2ee0" file="app/app_bsp.c" linenr="10" column="3" str="HAL_TIM_Base_Init" scope="0x5563d7aaa030" type="name" astParent="0x5563d7ab2be0"/>
+    <token id="0x5563d7ab2be0" file="app/app_bsp.c" linenr="10" column="20" str="(" scope="0x5563d7aaa030" link="0x5563d7ab3a40" exprId="23" astOperand1="0x5563d7ab2ee0" astOperand2="0x5563d7ab41a0"/>
+    <token id="0x5563d7ab41a0" file="app/app_bsp.c" linenr="10" column="22" str="&amp;" scope="0x5563d7aaa030" type="op" exprId="24" values="0x5563d7ab3d00" astParent="0x5563d7ab2be0" astOperand1="0x5563d7ab3c40"/>
+    <token id="0x5563d7ab3c40" file="app/app_bsp.c" linenr="10" column="23" str="TIM6_Handler" scope="0x5563d7aaa030" type="name" varId="1" exprId="1" variable="0x5563d7ab2560" astParent="0x5563d7ab41a0"/>
+    <token id="0x5563d7ab3a40" file="app/app_bsp.c" linenr="10" column="36" str=")" scope="0x5563d7aaa030" link="0x5563d7ab2be0"/>
+    <token id="0x5563d7ab3b80" file="app/app_bsp.c" linenr="10" column="37" str=";" scope="0x5563d7aaa030"/>
+    <token id="0x5563d7ab2fa0" file="app/app_bsp.c" linenr="11" column="1" str="}" scope="0x5563d7aaa030" link="0x5563d7ab3060"/>
+    <token id="0x5563d7ab39c0" file="app/app_bsp.c" linenr="12" column="1" str="void" scope="0x5563d7aa5e20" type="name"/>
+    <token id="0x5563d7ab36c0" file="app/app_bsp.c" linenr="12" column="6" str="Delay_us" scope="0x5563d7aa5e20" type="name" function="0x5563d7aa7820"/>
+    <token id="0x5563d7ab33c0" file="app/app_bsp.c" linenr="12" column="14" str="(" scope="0x5563d7aa5e20" link="0x5563d7ab2b80" valueType-type="void" valueType-reference="None"/>
+    <token id="0x5563d7ab3720" file="app/app_bsp.c" linenr="12" column="15" str="uint16_t" scope="0x5563d7aa5e20" type="name"/>
+    <token id="0x5563d7ab38a0" file="app/app_bsp.c" linenr="12" column="24" str="delay" scope="0x5563d7aa5e20" type="name" varId="8" exprId="8" variable="0x5563d7ab3300" values="0x5563d7aad700" valueType-type="short" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0x5563d7ab2b80" file="app/app_bsp.c" linenr="12" column="29" str=")" scope="0x5563d7aa5e20" link="0x5563d7ab33c0"/>
+    <token id="0x5563d7ab2ac0" file="app/app_bsp.c" linenr="13" column="1" str="{" scope="0x5563d7aa9910" link="0x5563d7ab2380"/>
+    <token id="0x5563d7ab3aa0" file="app/app_bsp.c" linenr="14" column="3" str="HAL_TIM_Base_Start" scope="0x5563d7aa9910" type="name" astParent="0x5563d7ab4020"/>
+    <token id="0x5563d7ab4020" file="app/app_bsp.c" linenr="14" column="21" str="(" scope="0x5563d7aa9910" link="0x5563d7ab3180" exprId="25" astOperand1="0x5563d7ab3aa0" astOperand2="0x5563d7ab2dc0"/>
+    <token id="0x5563d7ab2dc0" file="app/app_bsp.c" linenr="14" column="22" str="&amp;" scope="0x5563d7aa9910" type="op" exprId="26" values="0x5563d7a99850" astParent="0x5563d7ab4020" astOperand1="0x5563d7ab31e0"/>
+    <token id="0x5563d7ab31e0" file="app/app_bsp.c" linenr="14" column="23" str="TIM6_Handler" scope="0x5563d7aa9910" type="name" varId="1" exprId="1" variable="0x5563d7ab2560" astParent="0x5563d7ab2dc0"/>
+    <token id="0x5563d7ab3180" file="app/app_bsp.c" linenr="14" column="35" str=")" scope="0x5563d7aa9910" link="0x5563d7ab4020"/>
+    <token id="0x5563d7ab3ca0" file="app/app_bsp.c" linenr="14" column="36" str=";" scope="0x5563d7aa9910"/>
+    <token id="0x5563d7ab11a0" file="app/app_bsp.c" linenr="15" column="3" str="while" scope="0x5563d7aa9910" type="name" astParent="0x5563d7ab1290"/>
+    <token id="0x5563d7ab1290" file="app/app_bsp.c" linenr="15" column="8" str="(" scope="0x5563d7aa9910" link="0x5563d7aa7fb0" exprId="27" astOperand1="0x5563d7ab11a0" astOperand2="0x5563d7ab16e0"/>
+    <token id="0x5563d7ab1380" file="app/app_bsp.c" linenr="15" column="10" str="__HAL_TIM_GetCounter" scope="0x5563d7aa9910" type="name" astParent="0x5563d7ab13e0"/>
+    <token id="0x5563d7ab13e0" file="app/app_bsp.c" linenr="15" column="30" str="(" scope="0x5563d7aa9910" link="0x5563d7ab15f0" exprId="28" astParent="0x5563d7ab16e0" astOperand1="0x5563d7ab1380" astOperand2="0x5563d7ab1500"/>
+    <token id="0x5563d7ab1500" file="app/app_bsp.c" linenr="15" column="31" str="&amp;" scope="0x5563d7aa9910" type="op" exprId="26" values="0x5563d7a9c5b0" astParent="0x5563d7ab13e0" astOperand1="0x5563d7aad110"/>
+    <token id="0x5563d7aad110" file="app/app_bsp.c" linenr="15" column="32" str="TIM6_Handler" scope="0x5563d7aa9910" type="name" varId="1" exprId="1" variable="0x5563d7ab2560" astParent="0x5563d7ab1500"/>
+    <token id="0x5563d7ab15f0" file="app/app_bsp.c" linenr="15" column="44" str=")" scope="0x5563d7aa9910" link="0x5563d7ab13e0"/>
+    <token id="0x5563d7ab16e0" file="app/app_bsp.c" linenr="15" column="46" str="&lt;" scope="0x5563d7aa9910" type="op" isComparisonOp="true" exprId="30" values="0x5563d7a97cc0" astParent="0x5563d7ab1290" astOperand1="0x5563d7ab13e0" astOperand2="0x5563d7aad170" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x5563d7aad170" file="app/app_bsp.c" linenr="15" column="48" str="delay" scope="0x5563d7aa9910" type="name" varId="8" exprId="8" variable="0x5563d7ab3300" values="0x5563d7ab2160" astParent="0x5563d7ab16e0" valueType-type="short" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0x5563d7aa7fb0" file="app/app_bsp.c" linenr="15" column="54" str=")" scope="0x5563d7aa9910" link="0x5563d7ab1290"/>
+    <token id="0x5563d7aa81a0" file="app/app_bsp.c" linenr="16" column="3" str="{" scope="0x5563d7aaa290" link="0x5563d7aa83f0"/>
+    <token id="0x5563d7aa83f0" file="app/app_bsp.c" linenr="18" column="3" str="}" scope="0x5563d7aaa290" link="0x5563d7aa81a0"/>
+    <token id="0x5563d7aa84e0" file="app/app_bsp.c" linenr="19" column="3" str="__HAL_TIM_SET_COUNTER" scope="0x5563d7aa9910" type="name" astParent="0x5563d7ab0e10"/>
+    <token id="0x5563d7ab0e10" file="app/app_bsp.c" linenr="19" column="24" str="(" scope="0x5563d7aa9910" link="0x5563d7ab1ec0" exprId="31" astOperand1="0x5563d7aa84e0" astOperand2="0x5563d7ab1d60"/>
+    <token id="0x5563d7ab1c00" file="app/app_bsp.c" linenr="19" column="25" str="&amp;" scope="0x5563d7aa9910" type="op" exprId="26" values="0x5563d7a999d0" astParent="0x5563d7ab1d60" astOperand1="0x5563d7ab1c60"/>
+    <token id="0x5563d7ab1c60" file="app/app_bsp.c" linenr="19" column="26" str="TIM6_Handler" scope="0x5563d7aa9910" type="name" varId="1" exprId="1" variable="0x5563d7ab2560" astParent="0x5563d7ab1c00"/>
+    <token id="0x5563d7ab1d60" file="app/app_bsp.c" linenr="19" column="38" str="," scope="0x5563d7aa9910" astParent="0x5563d7ab0e10" astOperand1="0x5563d7ab1c00" astOperand2="0x5563d7ab1dc0"/>
+    <token id="0x5563d7ab1dc0" file="app/app_bsp.c" linenr="19" column="39" str="0" scope="0x5563d7aa9910" type="number" isInt="true" values="0x5563d7a99a30" astParent="0x5563d7ab1d60" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x5563d7ab1ec0" file="app/app_bsp.c" linenr="19" column="40" str=")" scope="0x5563d7aa9910" link="0x5563d7ab0e10"/>
+    <token id="0x5563d7aa9d10" file="app/app_bsp.c" linenr="19" column="41" str=";" scope="0x5563d7aa9910"/>
+    <token id="0x5563d7ab1fb0" file="app/app_bsp.c" linenr="20" column="3" str="HAL_TIM_Base_Stop" scope="0x5563d7aa9910" type="name" astParent="0x5563d7ab20a0"/>
+    <token id="0x5563d7ab20a0" file="app/app_bsp.c" linenr="20" column="20" str="(" scope="0x5563d7aa9910" link="0x5563d7aa5cd0" exprId="33" astOperand1="0x5563d7ab1fb0" astOperand2="0x5563d7ab2100"/>
+    <token id="0x5563d7ab2100" file="app/app_bsp.c" linenr="20" column="21" str="&amp;" scope="0x5563d7aa9910" type="op" exprId="26" values="0x5563d7ab14e0" astParent="0x5563d7ab20a0" astOperand1="0x5563d7ab2230"/>
+    <token id="0x5563d7ab2230" file="app/app_bsp.c" linenr="20" column="22" str="TIM6_Handler" scope="0x5563d7aa9910" type="name" varId="1" exprId="1" variable="0x5563d7ab2560" astParent="0x5563d7ab2100"/>
+    <token id="0x5563d7aa5cd0" file="app/app_bsp.c" linenr="20" column="34" str=")" scope="0x5563d7aa9910" link="0x5563d7ab20a0"/>
+    <token id="0x5563d7ab2290" file="app/app_bsp.c" linenr="20" column="35" str=";" scope="0x5563d7aa9910"/>
+    <token id="0x5563d7ab2380" file="app/app_bsp.c" linenr="21" column="1" str="}" scope="0x5563d7aa9910" link="0x5563d7ab2ac0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x5563d7aa5e20" type="Global">
+      <functionList>
+        <function id="0x5563d7aa5fb0" token="0x5563d7ab2d60" tokenDef="0x5563d7ab2640" name="Delay_us_Init" type="Function" access="Public"/>
+        <function id="0x5563d7aa7820" token="0x5563d7ab36c0" tokenDef="0x5563d7ab3840" name="Delay_us" type="Function" access="Public">
+          <arg nr="1" variable="0x5563d7ab3300"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x5563d7ab2560"/>
+      </varlist>
+    </scope>
+    <scope id="0x5563d7aaa030" type="Function" className="Delay_us_Init" bodyStart="0x5563d7ab3060" bodyEnd="0x5563d7ab2fa0" nestedIn="0x5563d7aa5e20" function="0x5563d7aa5fb0"/>
+    <scope id="0x5563d7aa9910" type="Function" className="Delay_us" bodyStart="0x5563d7ab2ac0" bodyEnd="0x5563d7ab2380" nestedIn="0x5563d7aa5e20" function="0x5563d7aa7820"/>
+    <scope id="0x5563d7aaa290" type="While" bodyStart="0x5563d7aa81a0" bodyEnd="0x5563d7aa83f0" nestedIn="0x5563d7aa9910"/>
+  </scopes>
+  <variables>
+    <var id="0x5563d7ab2560" nameToken="0x5563d7ab27c0" typeStartToken="0x5563d7ab26a0" typeEndToken="0x5563d7ab26a0" access="Global" scope="0x5563d7aa5e20" constness="0" isArray="false" isClass="true" isConst="false" isExtern="true" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x5563d7ab3300" nameToken="0x5563d7ab38a0" typeStartToken="0x5563d7ab3720" typeEndToken="0x5563d7ab3720" access="Argument" scope="0x5563d7aa9910" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x5563d7a99d10">
+      <value intvalue="64" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x5563d7a9a880">
+      <value intvalue="64" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x5563d7a99cb0">
+      <value intvalue="1000" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x5563d7a99b00">
+      <value intvalue="1000" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x5563d7ab3d00">
+      <value lifetime="0x5563d7ab3c40" lifetime-scope="Local" lifetime-kind="Address" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x5563d7aad700">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0x5563d7a99850">
+      <value lifetime="0x5563d7ab31e0" lifetime-scope="Local" lifetime-kind="Address" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x5563d7a9c5b0">
+      <value lifetime="0x5563d7aad110" lifetime-scope="Local" lifetime-kind="Address" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x5563d7a97cc0">
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="2" bound="Lower" impossible="true" path="0"/>
+    </values>
+    <values id="0x5563d7ab2160">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0x5563d7a999d0">
+      <value lifetime="0x5563d7ab1c60" lifetime-scope="Local" lifetime-kind="Address" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x5563d7a99a30">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x5563d7ab14e0">
+      <value lifetime="0x5563d7ab2230" lifetime-scope="Local" lifetime-kind="Address" bound="Point" possible="true" path="0"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

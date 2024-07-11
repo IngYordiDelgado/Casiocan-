@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12912477719609344135">
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="GPIO_PIN_7"/>
+    <functioncall functionName="HAL_FDCAN_IRQHandler"/>
+    <functioncall functionName="HAL_GPIO_EXTI_IRQHandler"/>
+    <functioncall functionName="HAL_IncTick"/>
+    <functioncall functionName="HAL_RTC_AlarmIRQHandler"/>
+    <functioncall functionName="assert_param"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,12 @@
+AlarmFormat call:[__itoa,strcat] noreturn:[strcat]
+TimeFormat call:[__itoa,strcat] noreturn:[strcat]
+DateFormat global:[date_most_significative_backup] call:[__itoa,strcat] noreturn:[strcat]
+display_Init global:[LCDHandler,SpiHandle] call:[Delay_us_Init,HAL_SPI_Init,HEL_LCD_Init] noreturn:[HEL_LCD_Init]
+Display_TimeStr_Processing global:[Display_Queue,TimeStr] call:[HIL_QUEUE_Write,TimeFormat] noreturn:[HIL_QUEUE_Write]
+Display_DateStr_Processing global:[DateStr,Display_Queue] call:[DateFormat,HIL_QUEUE_Write] noreturn:[HIL_QUEUE_Write]
+Display_Lcd_Write global:[DateStr,LCDHandler,TimeStr] call:[HAL_GPIO_TogglePin,HEL_LCD_Backlight,HEL_LCD_Clear,HEL_LCD_Data,HEL_LCD_SetCursor,HEL_LCD_String,memset,sizeof,strcpy] noreturn:[HAL_GPIO_TogglePin,HEL_LCD_Data]
+Display_Alamr_Active global:[LCDHandler] call:[HEL_LCD_Backlight,HEL_LCD_Data,HEL_LCD_SetCursor,HEL_LCD_String] noreturn:[HEL_LCD_Backlight]
+Display_Alarm_Set global:[LCDHandler,Sche] call:[AlarmFormat,HEL_LCD_Data,HEL_LCD_SetCursor,HEL_LCD_String,HIL_SCHEDULER_StopTask,memset,sizeof,strcat] noreturn:[HIL_SCHEDULER_StopTask]
+Display_Alarm_No_Set global:[LCDHandler,Sche] call:[HEL_LCD_Data,HEL_LCD_SetCursor,HEL_LCD_String,HIL_SCHEDULER_StopTask,memset,sizeof] noreturn:[HIL_SCHEDULER_StopTask]
+Display_Do_Nothing
+display_Task global:[Display_Queue] call:[HIL_QUEUE_IsEmpty,HIL_QUEUE_Read]

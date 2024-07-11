@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16484632195436829742">
+  <FileInfo check="ctu">
+<function-call call-id="app/hil_queue.h:23:16" call-funcname="HIL_QUEUE_IsFull" call-argnr="1" file="app/hil_queue.c" line="27" col="10" my-id="app/hil_queue.h:18:16" my-argnr="1"/>
+<function-call call-id="app/hil_queue.h:22:16" call-funcname="HIL_QUEUE_IsEmpty" call-argnr="1" file="app/hil_queue.c" line="47" col="11" my-id="app/hil_queue.h:19:16" my-argnr="1"/>
+<function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/hil_queue.c" line="76" col="15" my-id="app/hil_queue.h:24:16" my-argnr="1"/>
+<function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/hil_queue.c" line="76" col="15" my-id="app/hil_queue.h:24:16" my-argnr="2"/>
+<function-call call-id="app/hil_queue.h:19:16" call-funcname="HIL_QUEUE_Read" call-argnr="1" file="app/hil_queue.c" line="85" col="15" my-id="app/hil_queue.h:25:16" my-argnr="1"/>
+<function-call call-id="app/hil_queue.h:19:16" call-funcname="HIL_QUEUE_Read" call-argnr="2" file="app/hil_queue.c" line="85" col="15" my-id="app/hil_queue.h:25:16" my-argnr="2"/>
+<function-call call-id="app/hil_queue.h:22:16" call-funcname="HIL_QUEUE_IsEmpty" call-argnr="1" file="app/hil_queue.c" line="94" col="15" my-id="app/hil_queue.h:26:16" my-argnr="1"/>
+<function-call call-id="app/hil_queue.h:20:6" call-funcname="HIL_QUEUE_Flush" call-argnr="1" file="app/hil_queue.c" line="102" col="3" my-id="app/hil_queue.h:27:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="app/hil_queue.h:21:13" my-argnr="1" my-argname="hqueue" file="app/hil_queue.c" line="7" col="5" value="0"/>
+    <unsafe-usage my-id="app/hil_queue.h:22:16" my-argnr="1" my-argname="hqueue" file="app/hil_queue.c" line="15" col="12" value="0"/>
+    <unsafe-usage my-id="app/hil_queue.h:23:16" my-argnr="1" my-argname="hqueue" file="app/hil_queue.c" line="21" col="12" value="0"/>
+    <unsafe-usage my-id="app/hil_queue.h:20:6" my-argnr="1" my-argname="hqueue" file="app/hil_queue.c" line="68" col="17" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="app/hil_queue.h:22:16" my-argnr="1" my-argname="hqueue" file="app/hil_queue.c" line="15" col="12" value="0"/>
+    <unsafe-usage my-id="app/hil_queue.h:23:16" my-argnr="1" my-argname="hqueue" file="app/hil_queue.c" line="21" col="12" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-11.5" severity="style" msg="A conversion should not be performed from pointer to void into pointer to object " verbose="A conversion should not be performed from pointer to void into pointer to object " file0="Build/checks/hil_queue.a1.dump">
+            <location file="app/hil_queue.c" line="29" column="23"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="A conversion should not be performed from pointer to void into pointer to object " verbose="A conversion should not be performed from pointer to void into pointer to object " file0="Build/checks/hil_queue.a1.dump">
+            <location file="app/hil_queue.c" line="49" column="29"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="HIL_QUEUE_Flush" lineNumber="66"/>
+    <functiondecl functionName="HIL_QUEUE_FlushISR" lineNumber="99"/>
+    <functioncall functionName="HAL_NVIC_DisableIRQ"/>
+    <functioncall functionName="HAL_NVIC_EnableIRQ"/>
+    <functioncall functionName="HIL_QUEUE_Flush"/>
+    <functioncall functionName="HIL_QUEUE_Init"/>
+    <functioncall functionName="HIL_QUEUE_IsEmpty"/>
+    <functioncall functionName="HIL_QUEUE_IsFull"/>
+    <functioncall functionName="HIL_QUEUE_Read"/>
+    <functioncall functionName="HIL_QUEUE_Write"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+  </FileInfo>
+</analyzerinfo>

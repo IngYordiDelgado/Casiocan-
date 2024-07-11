@@ -1,0 +1,11 @@
+HIL_SCHEDULER_RegisterTimer
+HIL_SCHEDULER_GetTimer
+HIL_SCHEDULER_ReloadTimer
+HIL_SCHEDULER_StartTimer
+HIL_SCHEDULER_StopTimer
+HIL_SCHEDULER_Init
+HIL_SCHEDULER_RegisterTask
+HIL_SCHEDULER_StopTask
+HIL_SCHEDULER_StartTask
+HIL_SCHEDULER_PeriodTask
+HIL_SCHEDULER_Start call:[HAL_GetTick,callbackPtr,initFunc,taskFunc] noreturn:[callbackPtr,initFunc,taskFunc]

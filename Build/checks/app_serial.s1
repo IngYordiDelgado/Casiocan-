@@ -1,0 +1,15 @@
+Serial_Init global:[CANHandler,CANTxHeader,Clock_Buffer,Clock_Queue,Serial_Queue] call:[HAL_FDCAN_ActivateNotification,HAL_FDCAN_ConfigFilter,HAL_FDCAN_ConfigGlobalFilter,HAL_FDCAN_Init,HAL_FDCAN_Start,HIL_QUEUE_Init,sizeof] noreturn:[HIL_QUEUE_Init]
+CanTp_SingleFrameTx global:[CANHandler,CANTxHeader] call:[HAL_FDCAN_AddMessageToTxFifoQ] noreturn:[HAL_FDCAN_AddMessageToTxFifoQ]
+CanTp_SingleFrameRx
+HAL_FDCAN_RxFifo0Callback global:[Serial_Queue,bytes_received] call:[CanTp_SingleFrameRx,HAL_FDCAN_GetRxMessage,HIL_QUEUE_IsFull,HIL_QUEUE_WriteISR] noreturn:[HIL_QUEUE_WriteISR]
+bcd_to_decimal call:[return] noreturn:[return]
+date_validation call:[leap]
+Do_Nothing
+Time_Config_IsValid call:[bcd_to_decimal]
+Time_Config global:[Clock_Queue,Serial_Queue] call:[HIL_QUEUE_Write,Time_Config_IsValid,bcd_to_decimal] noreturn:[HIL_QUEUE_Write]
+Date_Config global:[Clock_Queue,Serial_Queue,date_most_significative_backup] call:[HIL_QUEUE_Write,bcd_to_decimal,date_validation] noreturn:[HIL_QUEUE_Write]
+Alarm_Config_IsValid call:[bcd_to_decimal]
+Alarm_Config global:[Clock_Queue,Serial_Queue] call:[Alarm_Config_IsValid,HIL_QUEUE_Write,bcd_to_decimal] noreturn:[HIL_QUEUE_Write]
+Ok_Msg_Acknowledge global:[bytes_received] call:[CanTp_SingleFrameTx] noreturn:[CanTp_SingleFrameTx]
+Error_Msg_Acknowledge global:[bytes_received] call:[CanTp_SingleFrameTx] noreturn:[CanTp_SingleFrameTx]
+Serial_Task global:[Serial_Queue] call:[HIL_QUEUE_IsEmptyISR,HIL_QUEUE_Read]

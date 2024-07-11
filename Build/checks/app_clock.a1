@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="749448275035181263">
+  <FileInfo check="ctu">
+<function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="35" col="26" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_clock.c" line="35" col="26" call-argexpr="&amp;msg_struct" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="41" col="26" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_clock.c" line="41" col="26" call-argexpr="&amp;msg_struct" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/scheduler.h:44:13" call-funcname="HIL_SCHEDULER_StartTask" call-argnr="1" file="app/app_clock.c" line="49" col="32" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="70" col="28" call-argexpr="&amp;Display_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="76" col="28" call-argexpr="&amp;Display_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="93" col="26" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_clock.c" line="93" col="26" call-argexpr="&amp;msg_struct" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="106" col="28" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_clock.c" line="106" col="28" call-argexpr="&amp;msg_struct" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="112" col="28" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="2" file="app/app_clock.c" line="112" col="28" call-argexpr="&amp;msg_struct" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/scheduler.h:50:13" call-funcname="HIL_SCHEDULER_StartTimer" call-argnr="1" file="app/app_clock.c" line="114" col="35" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="170" col="24" call-argexpr="&amp;Display_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="189" col="26" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="194" col="24" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="211" col="26" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="216" col="24" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="241" col="26" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:18:16" call-funcname="HIL_QUEUE_Write" call-argnr="1" file="app/app_clock.c" line="260" col="24" call-argexpr="&amp;Display_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:21:13" call-funcname="HIL_QUEUE_Init" call-argnr="1" file="app/app_clock.c" line="282" col="17" call-argexpr="&amp;Display_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/scheduler.h:50:13" call-funcname="HIL_SCHEDULER_StartTimer" call-argnr="1" file="app/app_clock.c" line="283" col="33" call-argexpr="&amp;Sche" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:26:16" call-funcname="HIL_QUEUE_IsEmptyISR" call-argnr="1" file="app/app_clock.c" line="319" col="30" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:19:16" call-funcname="HIL_QUEUE_Read" call-argnr="1" file="app/app_clock.c" line="321" col="25" call-argexpr="&amp;Clock_Queue" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="app/hil_queue.h:19:16" call-funcname="HIL_QUEUE_Read" call-argnr="2" file="app/app_clock.c" line="321" col="25" call-argexpr="&amp;msg_struct" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="app/app_clock.c:59:13" my-argnr="1" my-argname="msg_struct" file="app/app_clock.c" line="64" col="3" value="0"/>
+    <unsafe-usage my-id="app/app_clock.c:152:13" my-argnr="1" my-argname="msg_struct" file="app/app_clock.c" line="157" col="3" value="0"/>
+    <unsafe-usage my-id="app/app_clock.c:173:13" my-argnr="1" my-argname="msg_struct" file="app/app_clock.c" line="177" col="19" value="0"/>
+    <unsafe-usage my-id="app/app_clock.c:197:13" my-argnr="1" my-argname="msg_struct" file="app/app_clock.c" line="201" col="19" value="0"/>
+    <unsafe-usage my-id="app/app_clock.c:218:13" my-argnr="1" my-argname="msg_struct" file="app/app_clock.c" line="222" col="3" value="0"/>
+    <unsafe-usage my-id="app/app_clock.c:253:13" my-argnr="1" my-argname="msg_struct" file="app/app_clock.c" line="257" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="app/app_clock.c:173:13" my-argnr="1" my-argname="msg_struct" file="app/app_clock.c" line="177" col="19" value="0"/>
+    <unsafe-usage my-id="app/app_clock.c:197:13" my-argnr="1" my-argname="msg_struct" file="app/app_clock.c" line="201" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Clock_DisplayAlarm" lineNumber="59"/>
+    <functiondecl functionName="RunAlarm" lineNumber="79"/>
+    <functiondecl functionName="zeller" lineNumber="134"/>
+    <functiondecl functionName="Day_Of_Week" lineNumber="143"/>
+    <functiondecl functionName="Clock_Do_Nothing" lineNumber="148"/>
+    <functiondecl functionName="Clock_Display_Func" lineNumber="152"/>
+    <functiondecl functionName="Clock_Time_Config" lineNumber="173"/>
+    <functiondecl functionName="Clock_Date_Config" lineNumber="197"/>
+    <functiondecl functionName="Clock_Alarm_Config" lineNumber="218"/>
+    <functiondecl functionName="Clock_Alarm_Deactive" lineNumber="244"/>
+    <functiondecl functionName="Clock_Alarm_Active" lineNumber="253"/>
+    <functioncall functionName="CLOCK_ALARM"/>
+    <functioncall functionName="CLOCK_ALARM_ACTIVATE"/>
+    <functioncall functionName="CLOCK_ALARM_DEACTIVATE"/>
+    <functioncall functionName="CLOCK_ALARM_DISPLAY"/>
+    <functioncall functionName="CLOCK_DATE"/>
+    <functioncall functionName="CLOCK_DISPLAY"/>
+    <functioncall functionName="CLOCK_MSG_NONE"/>
+    <functioncall functionName="CLOCK_TIME"/>
+    <functioncall functionName="Clock_Alarm_Active"/>
+    <functioncall functionName="Clock_Alarm_Config"/>
+    <functioncall functionName="Clock_Alarm_Deactive"/>
+    <functioncall functionName="Clock_Date_Config"/>
+    <functioncall functionName="Clock_DisplayAlarm"/>
+    <functioncall functionName="Clock_Display_Func"/>
+    <functioncall functionName="Clock_Do_Nothing"/>
+    <functioncall functionName="Clock_Time_Config"/>
+    <functioncall functionName="DISPLAY_ALARM_ACTIVE"/>
+    <functioncall functionName="DISPLAY_ALARM_NOSET"/>
+    <functioncall functionName="DISPLAY_ALARM_SET"/>
+    <functioncall functionName="DISPLAY_NO_MSG"/>
+    <functioncall functionName="DISPLAY_TIMESTR_PROCESSING"/>
+    <functioncall functionName="Day_Of_Week"/>
+    <functioncall functionName="FORMAT_BIN"/>
+    <functioncall functionName="GPIOB"/>
+    <functioncall functionName="GPIO_PIN_14"/>
+    <functioncall functionName="HAL_GPIO_TogglePin"/>
+    <functioncall functionName="HAL_GPIO_WritePin"/>
+    <functioncall functionName="HAL_RTC_DeactivateAlarm"/>
+    <functioncall functionName="HAL_RTC_GetAlarm"/>
+    <functioncall functionName="HAL_RTC_GetDate"/>
+    <functioncall functionName="HAL_RTC_GetTime"/>
+    <functioncall functionName="HAL_RTC_Init"/>
+    <functioncall functionName="HAL_RTC_SetAlarm_IT"/>
+    <functioncall functionName="HAL_RTC_SetDate"/>
+    <functioncall functionName="HAL_RTC_SetTime"/>
+    <functioncall functionName="HIL_QUEUE_Init"/>
+    <functioncall functionName="HIL_QUEUE_IsEmptyISR"/>
+    <functioncall functionName="HIL_QUEUE_Read"/>
+    <functioncall functionName="HIL_QUEUE_Write"/>
+    <functioncall functionName="HIL_SCHEDULER_StartTask"/>
+    <functioncall functionName="HIL_SCHEDULER_StartTimer"/>
+    <functioncall functionName="RESET"/>
+    <functioncall functionName="RTC"/>
+    <functioncall functionName="RTC_ALARMDATEWEEKDAYSEL_DATE"/>
+    <functioncall functionName="RTC_ALARMMASK_DATEWEEKDAY"/>
+    <functioncall functionName="RTC_ALARM_A"/>
+    <functioncall functionName="RTC_DAYLIGHTSAVING_NONE"/>
+    <functioncall functionName="RTC_FORMAT_BIN"/>
+    <functioncall functionName="RTC_HOURFORMAT_24"/>
+    <functioncall functionName="RTC_OUTPUT_DISABLE"/>
+    <functioncall functionName="RTC_STOREOPERATION_RESET"/>
+    <functioncall functionName="RunAlarm"/>
+    <functioncall functionName="SERIAL_MSG_NONE"/>
+    <functioncall functionName="leap"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="zeller"/>
+  </FileInfo>
+</analyzerinfo>
